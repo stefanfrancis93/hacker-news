@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stories renders the page unchanged 1`] = `
+<div>
+  <main
+    class="main"
+  >
+    <h1
+      data-testid="heading"
+    >
+      Hacker News | Top Stories
+    </h1>
+    <ul
+      class="list"
+      data-testid="list-container"
+    />
+    <div
+      class="spinnerContainer"
+      data-testid="spinner-container"
+    >
+      Loading
+      <span
+        class="spinner"
+      >
+        <img
+          alt="spinner"
+          data-nimg="1"
+          decoding="async"
+          height="30"
+          loading="lazy"
+          src="/_next/image?url=%2Fspinner.gif&w=64&q=75"
+          srcset="/_next/image?url=%2Fspinner.gif&w=32&q=75 1x, /_next/image?url=%2Fspinner.gif&w=64&q=75 2x"
+          style="color: transparent;"
+          width="30"
+        />
+      </span>
+    </div>
+  </main>
+</div>
+`;

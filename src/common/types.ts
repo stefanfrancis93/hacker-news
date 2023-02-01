@@ -8,7 +8,7 @@ export interface Error {
   message?: string;
 }
 
-enum Type {
+export enum Type {
   STORY = "story",
 }
 
@@ -20,8 +20,9 @@ export interface Story {
   score: number;
   time: number;
   title: string;
+  text?: string;
   type: Type;
-  url: string;
+  url?: string;
 }
 
 export interface Pagination {

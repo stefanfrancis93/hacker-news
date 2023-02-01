@@ -7,6 +7,7 @@
 
 .list {
   list-style: none;
+  margin-top: 20px;
 }
 
 .listItem:not(:last-child) {
@@ -26,6 +27,27 @@
   transform: scale(1.01);
 }
 
+.titleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.storyTitle {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-right: 10px;
+}
+
+.storyContent {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
 .spinnerContainer {
   margin-top: 16px;
   padding: 16px;
@@ -37,4 +59,14 @@
 
 .spinner {
   margin-left: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .main {
+    padding: 16px;
+  }
+
+  .list {
+    margin-top: 16px;
+  }
 }

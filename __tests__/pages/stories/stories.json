@@ -1,0 +1,298 @@
+{
+  "firstTen": [
+    {
+      "by": "ICodeSometimes",
+      "descendants": 53,
+      "id": 34604281,
+      "kids": [
+        34605228, 34608276, 34606763, 34608189, 34605321, 34604920, 34608118,
+        34606404, 34605592, 34606868, 34605450, 34605674, 34605663, 34604984,
+        34605539, 34605235, 34604961, 34605654, 34605508, 34605877, 34604979,
+        34604983, 34605115
+      ],
+      "score": 79,
+      "text": "Hey HN! About a year ago i stumbled upon the world of swords, knives, and EDC gear. A weirdly addicting (and expensive) hobby to have.<p>Back then i noticed something, it was quite tedious to easily sift and search through knives based on length, steel, brand, and what not to find the knife for me. There were some great youtube channels that helped me pick out what i wanted however i had to sit through multiple 30 minute videos just to review 10-15 knives or so each.<p>Recently i&#x27;ve been having a little trouble sleeping so i decided to pickup a new passion project to work on late at night, here&#x27;s KnifeGeek!<p>it&#x27;s a completely free website where you can search, filter, and sift through an extensive knife database (over 60K+ knives) and add them to your collection or wishlist. You do need to sign in to add stuff to your wishlist or collection and after a bunch of advanced searches.<p>Please check it out and let me know if you think anything is missing! I&#x27;ll try to flesh it out more on a daily basis if people find it cool or useful.<p>Planning to add in price comparison functionality and more data per knife in the next week.<p>PS: Images are a little shoddy, working on that.",
+      "time": 1675210082,
+      "title": "Show HN: KnifeGeek – Online Database of Pocket Knives",
+      "type": "story",
+      "url": "https://www.knifegeek.io/"
+    },
+    {
+      "by": "brndnbuilds",
+      "descendants": 29,
+      "id": 34602444,
+      "kids": [
+        34606411, 34606651, 34605602, 34605470, 34605578, 34605231, 34605232,
+        34605268, 34605360, 34606944, 34602472
+      ],
+      "score": 94,
+      "text": "Hi Everyone,<p>TunnlTo is a tool for controlling which Windows applications, processes, and IP addresses can use a WireGuard VPN tunnel. Here are some examples of how it could be used:<p>- Route only FireFox through a privacy VPN\n- Route Slack and Microsoft Office through a work VPN\n- Route a game through a gaming VPN\n- Stop a game from routing through a privacy VPN\n- Stop a browser from routing through a work VPN\n- Route a specific IP address range through a privacy VPN\n- Route all traffic through a privacy VPN except a specific IP address range<p>I have been collaborating on this project with the creator of WireSock - Vadim Smirnov.<p><i>&quot;WireSock VPN Client is a lightweight command line WireGuard VPN client for Windows that has advanced features not available in the official WireGuard for Windows such as selective application tunneling and disallowed IP addresses.<p>WireSock VPN Client combines the power of Windows Packet Filter and BoringTun (user space WireGuard implementation in Rust) to provide exceptional performance, security and scalability.&quot;</i><p>The TunnlTo app is built with Tauri and I&#x27;ve used boring old HTML, CSS (bootstrap) and JavaScript as I had major JS framework fatigue. I have previously built a production app with Electron and Vue. Tauri appealed to me for its use of Rust and its small installation sizes. I tried Tauri pre version 1.0 and had a bit of trouble but this time around its been a positive experience. The docs and the Discord community have come a long way.<p>I would appreciate any feedback about the project so I can get an idea of what direction to take it in next. Vadim will be around a little later if anyone is curious about the WireGuard implementation and wants to know more.<p>Thanks for reading!",
+      "time": 1675200521,
+      "title": "Show HN: TunnlTo – Windows WireGuard split tunnel client built with Rust, Tauri",
+      "type": "story",
+      "url": "https://github.com/TunnlTo/desktop-app"
+    },
+    {
+      "by": "bookstore-romeo",
+      "descendants": 32,
+      "id": 34603587,
+      "kids": [
+        34604280, 34608147, 34604488, 34605099, 34606089, 34604261, 34607699,
+        34607058, 34606870, 34604763, 34604625, 34606750, 34604334, 34605841
+      ],
+      "score": 113,
+      "time": 1675205990,
+      "title": "Concordia students set to launch most powerful rocket developed by civilians",
+      "type": "story",
+      "url": "https://www.concordia.ca/news/stories/2023/01/23/members-of-space-concordia-have-their-hearts-set-on-the-stars.html"
+    },
+    {
+      "by": "robertwt7",
+      "descendants": 119,
+      "id": 34606254,
+      "kids": [
+        34606605, 34606647, 34606653, 34607555, 34607874, 34608193, 34607685,
+        34606650, 34606731, 34606988, 34606560, 34607803, 34607347, 34606765,
+        34606748, 34606950, 34606475, 34607266, 34607298, 34606691, 34606862,
+        34607096, 34606520, 34607875, 34607516, 34607229, 34606545, 34606509,
+        34606661, 34606840, 34607107, 34606937, 34606668, 34606824, 34606830,
+        34606540, 34606902, 34606737, 34606514
+      ],
+      "score": 99,
+      "time": 1675224732,
+      "title": "Write simply (2021)",
+      "type": "story",
+      "url": "http://www.paulgraham.com/simply.html"
+    },
+    {
+      "by": "cpp_frog",
+      "descendants": 8,
+      "id": 34594216,
+      "kids": [34605730, 34607388, 34605419, 34607399],
+      "score": 80,
+      "time": 1675167964,
+      "title": "C++ Neural Network in a Weekend (2020)",
+      "type": "story",
+      "url": "https://www.jeremyong.com/cpp/machine-learning/2020/10/23/cpp-neural-network-in-a-weekend/"
+    },
+    {
+      "by": "sklargh",
+      "descendants": 177,
+      "id": 34604416,
+      "kids": [
+        34604708, 34604495, 34604833, 34604809, 34607290, 34604886, 34608006,
+        34607409, 34608153, 34608213, 34606682
+      ],
+      "score": 67,
+      "time": 1675210907,
+      "title": "Why Finland Selected the F-35A (2021)",
+      "type": "story",
+      "url": "https://corporalfrisk.com/2021/12/11/f-35a-is-hx-the-winner-takes-it-all/"
+    },
+    {
+      "by": "felixge",
+      "descendants": 7,
+      "id": 34600101,
+      "kids": [34606069, 34605563, 34604641],
+      "score": 80,
+      "time": 1675191922,
+      "title": "Reducing Go execution tracer overhead with frame pointer unwinding",
+      "type": "story",
+      "url": "https://blog.felixge.de/reducing-gos-execution-tracer-overhead-with-frame-pointer-unwinding/"
+    },
+    {
+      "by": "blegh",
+      "descendants": 36,
+      "id": 34601012,
+      "kids": [
+        34601488, 34601523, 34602020, 34601308, 34602291, 34602639, 34602916,
+        34606353
+      ],
+      "score": 142,
+      "time": 1675195111,
+      "title": "Critical brain hypothesis: A physical theory for when the brain performs best",
+      "type": "story",
+      "url": "https://www.quantamagazine.org/a-physical-theory-for-when-the-brain-performs-best-20230131/"
+    },
+    {
+      "by": "adrian_mrd",
+      "descendants": 55,
+      "id": 34592137,
+      "kids": [
+        34608455, 34603752, 34604415, 34604857, 34603877, 34606373, 34592326,
+        34606227, 34607942, 34605256, 34607758, 34603819, 34603900, 34606103,
+        34604109, 34603724, 34605227, 34607773, 34605136, 34605875, 34604477,
+        34604742
+      ],
+      "score": 80,
+      "time": 1675148478,
+      "title": "Bitrex – the brand name of the bitterest substance in the world",
+      "type": "story",
+      "url": "https://www.bitrex.com/"
+    },
+    {
+      "by": "krazii",
+      "descendants": 2,
+      "id": 34594612,
+      "kids": [34594613],
+      "score": 28,
+      "time": 1675170767,
+      "title": "Fast, Optimal, Any-Angle Pathfinding (Polyanya)",
+      "type": "story",
+      "url": "https://research.monash.edu/en/publications/compromise-free-pathfinding-on-a-navigation-mesh"
+    }
+  ],
+  "secondTen": [
+    {
+      "by": "nemoniac",
+      "descendants": 11,
+      "id": 34601089,
+      "kids": [
+        34607674, 34603428, 34607532, 34606927, 34603234, 34605469, 34605897,
+        34605414
+      ],
+      "score": 87,
+      "time": 1675195428,
+      "title": "Combobulate: Structured Movement and Editing with Tree-Sitter",
+      "type": "story",
+      "url": "https://www.masteringemacs.org/article/combobulate-structured-movement-editing-treesitter"
+    },
+    {
+      "by": "shcheklein",
+      "descendants": 124,
+      "id": 34600126,
+      "kids": [
+        34601369, 34606147, 34607756, 34602221, 34603130, 34602520, 34605640,
+        34602987, 34607692, 34601987, 34607302, 34604187, 34606187, 34605504,
+        34603884, 34602576, 34605148, 34602379, 34604690, 34602073, 34606169,
+        34601968, 34602674, 34601587, 34602789, 34602076, 34606146, 34606144,
+        34607075, 34602132
+      ],
+      "score": 411,
+      "time": 1675191991,
+      "title": "Hermes: An open-source document management system",
+      "type": "story",
+      "url": "https://www.hashicorp.com/blog/introducing-hermes-an-open-source-document-management-system"
+    },
+    {
+      "by": "MaxKeenan",
+      "descendants": 69,
+      "id": 34598406,
+      "kids": [
+        34608701, 34598512, 34601393, 34600680, 34600706, 34600255, 34605865,
+        34606762, 34606941, 34599406, 34599025, 34598904, 34606723, 34604872,
+        34600663, 34598685, 34602781, 34604834, 34607121, 34599779, 34606241,
+        34598478, 34607672, 34600219, 34599272, 34599873
+      ],
+      "score": 87,
+      "text": "Hi HN, we’re Max and James, co-founders of Needl (<a href=\"https:&#x2F;&#x2F;www.needl.tech\">https:&#x2F;&#x2F;www.needl.tech</a>). Needl is a single search bar for all your apps that lets you find any document, message, or file you need. Here’s a demo video: <a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;652ae56c8ee34bc2a84b8aacf479a9f4\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;652ae56c8ee34bc2a84b8aacf479a9f4</a>.<p>We’ve all struggled to find information and couldn’t remember if it was shared over Gmail or Slack or Notion. Most of us have hundreds of thousands of emails, documents, messages, etc., and only a small fraction are actually useful. Internal search is even harder than web search in some ways: with web search, there are dozens of right answers and millions of previous searches to train ranking models, but internally (i.e. on your own data), there is only one right answer and limited training data.<p>Needl’s value prop is twofold: it unifies all of your information together and provides better search than existing platforms (here’s an example of Needl compared to Gmail: <a href=\"https:&#x2F;&#x2F;imgur.com&#x2F;a&#x2F;3ZX8f8Q\" rel=\"nofollow\">https:&#x2F;&#x2F;imgur.com&#x2F;a&#x2F;3ZX8f8Q</a>). Together, these save time by giving you exactly what you need. Recently we also launched a personal assistant that gives direct answers to any search. Simply ask, “What’s the budget for our 2023 team offsite?” or “When’s my next flight to SF and what’s the confirmation #?” From your web apps, we’ll generate the exact answer you need. (pro tip, you don’t even have to phrase it as a question).<p>To rank results on Needl, we combine text matching, semantic search, and platform-specific usage patterns (e.g. email opens). Semantic search (based on user intent &#x2F; meaning) has helped us solve the hard problem of internal search – everyone has a different vernacular and way of organization. We use LLMs to create embeddings and then use vector search to allow greater breadth of results over traditional text-based search. Our search (and generative answers) even works well in different languages, something that surprised us.<p>To give generated answers to questions, we take the first results on Needl and run them through GPT-3 and use an engineered version of the user’s query to prompt GPT-3 accordingly. It’s similar to what Phind.com (Hello Cognition) and Perplexity.ai do with web search.<p>Using LLMs to build relationships between documents for search and recommendation was a remnant of our failed college startup. We had built a “TikTok for blog posts” that recommended user-written content based on their interactions with other posts. We quickly found out social media moderation was a nightmare (who would’ve thought) and few people enjoy reading any more.<p>It wasn’t until we threw in the white flag and went to our full-time jobs — James as a SWE at Microsoft and me in investment banking at Moelis — that we realized that recommendation + search was the real product. At my job in particular, intranet search was unusable. The primary way people “searched” for information was by sending company-wide e-mail blasts asking if anyone had materials about an industry or company! This got us wondering why internal search sucked so badly and led us down the path of building Needl.<p>Obviously with a product like this, privacy is the #1 concern for users. Some companies have solved this concern by going local first, but that involves significant reduction in quality of search, because LLMs can’t be run locally. We went the opposite route: users’ entire index is stored on the cloud. We know that’s not for everyone, but the results it enables are significantly more powerful, and we make clear commitments to our users: (1) we never access users’ personal information without explicit permission; (2) all information is encrypted both in transit and at rest, and (3) we will never sell users’ information. We’ve gotten SOC 2 Type II compliant to give our users assurances about the way their data is being handled and our dedication to information security.<p>Setting up Needl takes less than 3 minutes—users create an account, grant read access to the platforms they want to search through (Slack, Notion, GSuite, etc.), and we index their information. Once completed, you have instant, cross-platform search in a Spotlight-esque format—control + space opens Needl from anywhere.<p>In terms of pricing, Needl is free for up to 3 integrations and $10&#x2F;month for unlimited integrations.<p>To learn more, you can download and set up Needl at <a href=\"https:&#x2F;&#x2F;www.needl.tech&#x2F;\">https:&#x2F;&#x2F;www.needl.tech&#x2F;</a>. If you’ve already tried tools in this space, we’d love to hear your experience and what you care about most. We look forward to everyone’s comments!",
+      "time": 1675186577,
+      "title": "Launch HN: Needl (YC S22) – Simple search across all your apps",
+      "type": "story"
+    },
+    {
+      "by": "svsaraf",
+      "descendants": 160,
+      "id": 34605240,
+      "kids": [
+        34606916, 34605829, 34606083, 34607147, 34606391, 34608626, 34607976,
+        34606002, 34605767, 34605806, 34605911, 34606055, 34608226, 34607271,
+        34608244, 34607448, 34605706, 34605725, 34605785, 34607026, 34605718,
+        34605824, 34607989, 34605774, 34607807, 34606424, 34607726, 34605983,
+        34607614, 34605791, 34605753, 34605835, 34607926
+      ],
+      "score": 79,
+      "time": 1675216126,
+      "title": "Is remote work bad for the economy?",
+      "type": "story",
+      "url": "https://www.fractional.work/p/is-remote-work-bad-for-the-economy"
+    },
+    {
+      "by": "MathieuSneep",
+      "id": 34604832,
+      "score": 1,
+      "time": 1675213227,
+      "title": "Tablevibe (YC S21) hiring AU sales exec to help restaurants go direct-to-consumer",
+      "type": "job",
+      "url": "https://www.ycombinator.com/companies/tablevibe-co/jobs/aN5DPci-senior-sales-executive-australia-new-zealand"
+    },
+    {
+      "by": "chris_overseas",
+      "descendants": 5,
+      "id": 34608179,
+      "kids": [34608338, 34608581, 34608715, 34608357],
+      "score": 13,
+      "time": 1675242459,
+      "title": "San Francisco is getting cold feet about self-driving car tests",
+      "type": "story",
+      "url": "https://www.newscientist.com/article/2356888-san-francisco-is-getting-cold-feet-about-self-driving-car-tests/"
+    },
+    {
+      "by": "bloat",
+      "descendants": 3,
+      "id": 34608014,
+      "kids": [34608031, 34608376, 34608320],
+      "score": 18,
+      "time": 1675240856,
+      "title": "Tiny radioactive capsule lost in Australian outback found",
+      "type": "story",
+      "url": "https://www.theguardian.com/australia-news/2023/feb/01/tiny-radioactive-capsule-lost-in-australian-outback-found-by-side-of-1400km-stretch-of-road"
+    },
+    {
+      "by": "zdw",
+      "descendants": 70,
+      "id": 34569656,
+      "kids": [
+        34602283, 34601175, 34603402, 34601176, 34604583, 34601151, 34606686,
+        34607649, 34606852, 34601252, 34601828, 34601524, 34601360, 34602751,
+        34603563, 34602409
+      ],
+      "score": 95,
+      "time": 1675009915,
+      "title": "ASRock Industrial NUCS Box-1360P/D4 Review: Raptor Lake-P Plus Surprise ECC",
+      "type": "story",
+      "url": "https://www.anandtech.com/show/18732/asrock-industrial-nucs-box1360pd4-review-raptor-lakep-ecc"
+    },
+    {
+      "by": "davidbarker",
+      "descendants": 318,
+      "id": 34599106,
+      "kids": [
+        34600728, 34599693, 34599534, 34603493, 34600670, 34601331, 34601870,
+        34600971, 34599941, 34601103, 34608314, 34600397, 34601960, 34604185,
+        34600738, 34601118, 34599798, 34600060, 34600481, 34601486, 34602765,
+        34600012, 34599664, 34599954, 34606315, 34604429, 34599699, 34604671,
+        34602304, 34599797, 34601577, 34601843, 34600075, 34602956, 34602302,
+        34601386, 34601478, 34599960, 34603783, 34602271, 34599541, 34600847,
+        34600178, 34599976, 34599718, 34600251, 34599259, 34600017, 34603546,
+        34601251, 34599887, 34602970, 34601892, 34601936, 34600722, 34605132,
+        34603531, 34601568, 34600132, 34600115, 34604330, 34600873, 34602862,
+        34602976, 34602706, 34604310, 34600221, 34601569, 34604642, 34599712,
+        34599637, 34600462, 34600597, 34601058, 34604759, 34603010, 34601182,
+        34602561, 34601066, 34606163, 34599865, 34600244, 34602253, 34602279,
+        34599571, 34600027, 34601021, 34600747, 34601667, 34605748, 34600184,
+        34605449, 34601730, 34604404, 34602342, 34599915
+      ],
+      "score": 365,
+      "time": 1675188674,
+      "title": "New AI classifier for indicating AI-written text",
+      "type": "story",
+      "url": "https://openai.com/blog/new-ai-classifier-for-indicating-ai-written-text/"
+    },
+    {
+      "by": "Santosh83",
+      "descendants": 207,
+      "id": 34599094,
+      "kids": [
+        34601356, 34600429, 34600788, 34601496, 34599997, 34603917, 34602307,
+        34604311, 34602675, 34600731, 34600509, 34601409, 34600446, 34599709,
+        34600040, 34602082
+      ],
+      "score": 234,
+      "time": 1675188645,
+      "title": "Cosmic DE update: System76's new Linux desktop environment",
+      "type": "story",
+      "url": "https://blog.system76.com/post/more-on-cosmic-de-to-kick-off-2023/"
+    }
+  ]
+}

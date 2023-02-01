@@ -24,10 +24,23 @@ const Stories = () => {
   );
 
   const getLinkElement = useCallback(
-    ({ title, time, url }: { title: string; time: number; url: string }) => (
-      <Link href={url || ""} target="_blank" className={styles.link}>
-        <div>{title}</div>
-        <span>{new Date(time).toLocaleDateString()}</span>
+    ({
+      title,
+      text,
+      time,
+      url,
+    }: {
+      title: string;
+      text?: string;
+      time: number;
+      url: string;
+    }) => (
+      <Link href={url} target="_blank" className={styles.link}>
+        <div className={styles.titleContainer}>
+          <h2 className={styles.storyTitle}>{title}</h2>
+          <span>{new Date(time).toLocaleDateString()}</span>
+        </div>
+        {text && <p className={styles.storyContent}>{text}</p>}
       </Link>
     ),
     []
@@ -35,26 +48,35 @@ const Stories = () => {
 
   return (
     <main className={styles.main}>
-      <ul className={styles.list}>
-        {stories.map(({ id, title, time, url }, index) => {
+      <h1 data-testid="heading">Hacker News | Top Stories</h1>
+      <ul data-testid="list-container" className={styles.list}>
+        {stories.map(({ id, title, text, time, url = "" }, index) => {
           const isLastElement = stories.length === index + 1;
           if (isLastElement) {
             return (
-              <li key={id} className={styles.listItem} ref={lastStoryElRef}>
-                {getLinkElement({ title, time, url })}
+              <li
+                key={id}
+                className={styles.listItem}
+                data-testid="story-item"
+                ref={lastStoryElRef}
+              >
+                {getLinkElement({ title, text, time, url })}
               </li>
             );
           } else {
             return (
-              <li key={id} className={styles.listItem}>
-                {getLinkElement({ title, time, url })}
+              <li key={id} className={styles.listItem} data-testid="story-item">
+                {getLinkElement({ title, text, time, url })}
               </li>
             );
           }
         })}
       </ul>
       {loading && (
-        <div className={styles.spinnerContainer}>
+        <div
+          data-testid="spinner-container"
+          className={styles.spinnerContainer}
+        >
           Loading
           <span className={styles.spinner}>
             <Image src="/spinner.gif" alt="spinner" width={30} height={30} />
