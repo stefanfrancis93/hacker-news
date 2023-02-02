@@ -1,14 +1,9 @@
-import { ApiResponse, Pagination, Story } from "@/common/types";
+import { ApiResponse, StoriesListSuccessResponse, Story } from "@/common/types";
 import type { NextApiRequest, NextApiResponse } from "next";
 
 export default async function handler(
   _req: NextApiRequest,
-  res: NextApiResponse<
-    ApiResponse<{
-      stories: Story[];
-      pagination: Pagination;
-    } | null>
-  >
+  res: NextApiResponse<ApiResponse<StoriesListSuccessResponse | null>>
 ) {
   const { query, method } = _req;
 
@@ -23,10 +18,10 @@ export default async function handler(
   }
 
   try {
-    const page = parseInt(query.page as string, 10) || 0;
+    const page = parseInt(query.page as string, 10) || 1;
     const limit = parseInt(query.limit as string, 10) | 10;
-    const startIndex = page * limit;
-    const endIndex = (page + 1) * limit;
+    const startIndex = (page - 1) * limit;
+    const endIndex = page * limit;
 
     const { BASE_URL, HACKER_NEWS_API_BASE_URL } = process.env;
 

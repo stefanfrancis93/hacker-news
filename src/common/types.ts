@@ -1,4 +1,4 @@
-export interface ApiResponse<T> {
+export interface ApiResponse<T = unknown> {
   data: T;
   status: number;
   error?: Error;
@@ -28,4 +28,9 @@ export interface Story {
 export interface Pagination {
   page: number;
   limit: number;
+}
+
+export interface StoriesListSuccessResponse {
+  stories: Story[];
+  pagination: Pagination;
 }
